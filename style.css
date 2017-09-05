@@ -1,0 +1,30 @@
+header, section {
+    border: 1px solid black;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    height: 50px;
+}
+
+.code {
+    flex: 2;
+    display: flex;
+}
+
+.html, .css, .js {
+    flex: 1;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+.result {
+    flex: 1;
+}
